@@ -17,10 +17,10 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-YEARS = range(2011, 2026)
+YEARS = range(2016, 2026)
 STATES = (
-    "AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT "
-    "NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY"
+    "AZ CA CO DC FL GA IL IN KS LA MD MA MI MN MO "
+    "NV NJ NY NC OH PA SC TN TX WA"
 ).split()
 
 # Returns {"<key>": "<presigned S3 url, valid ~15 min>"}
