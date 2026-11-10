@@ -1,0 +1,50 @@
+# Raw data and generated data files
+data/
+local/
+*.zip
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.feather
+
+# Local databases, journals, and temporary storage
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp/
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter checkpoints 
+.ipynb_checkpoints/
+
+# Local configuration, logs, and unfinished downloads
+.env
+.env.*
+!.env.example
+*.log
+*.part
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
