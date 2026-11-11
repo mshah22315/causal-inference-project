@@ -20,7 +20,7 @@ from pathlib import Path
 YEARS = range(2016, 2026)
 STATES = (
     "AZ CA CO DC FL GA IL IN KS LA MD MA MI MN MO "
-    "NV NJ NY NC OH PA SC TN TX WA"
+    "NV NJ NY NC OH PA SC TN TX WA WI"
 ).split()
 
 # Returns {"<key>": "<presigned S3 url, valid ~15 min>"}
